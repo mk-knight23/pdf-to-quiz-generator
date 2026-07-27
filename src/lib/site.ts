@@ -12,9 +12,9 @@ export const CREATOR = {
   role: "AI Engineer · Full-Stack Developer · Open-Source Builder",
   github: "https://github.com/mk-knight23",
   portfolio: "https://www.mkazi.live",
-  repo: "https://github.com/mk-knight23/35-tool-pdf-to-quiz",
+  repo: "https://github.com/mk-knight23/MK-QuizFlow",
   email: "kazi@reprime.com",
-  issues: "https://github.com/mk-knight23/35-tool-pdf-to-quiz/issues",
+  issues: "https://github.com/mk-knight23/MK-QuizFlow/issues",
 } as const;
 
 /** The exact footer sentence required on every public route (STANDARDS §3). */

@@ -8,7 +8,7 @@
   "homepage": "https://quizflow.mkazi.live",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mk-knight23/35-tool-pdf-to-quiz"
+    "url": "https://github.com/mk-knight23/MK-QuizFlow"
   },
   "scripts": {
     "dev": "next dev",

@@ -4,7 +4,7 @@
 
 Site: https://thequizflow.com
 Author: Kazi Musharraf (https://www.mkazi.live)
-Source: https://github.com/mk-knight23/35-tool-pdf-to-quiz
+Source: https://github.com/mk-knight23/MK-QuizFlow
 License: MIT
 
 ## Key features

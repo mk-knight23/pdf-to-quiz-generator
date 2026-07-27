@@ -1,6 +1,6 @@
 # PRODUCT_SPEC.md — MK QuizFlow v2
 
-Product: **MK QuizFlow** · Domain: https://quizflow.mkazi.live · Repo: https://github.com/mk-knight23/35-tool-pdf-to-quiz
+Product: **MK QuizFlow** · Domain: https://quizflow.mkazi.live · Repo: https://github.com/mk-knight23/MK-QuizFlow
 Author: Kazi Musharraf · License: MIT · Stack: Next.js App Router + TypeScript strict + Tailwind v4 + pnpm (STANDARDS §1).
 
 ## 1. Objective
