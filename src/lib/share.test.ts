@@ -84,10 +84,10 @@ describe("buildShareUrl", () => {
     const quiz = sampleQuiz();
 
     // Act
-    const url = buildShareUrl("https://quizflow.mkazi.live/tool", quiz);
+    const url = buildShareUrl("https://thequizflow.com/tool", quiz);
 
     // Assert
-    expect(url.startsWith(`https://quizflow.mkazi.live/tool${SHARE_PREFIX}`)).toBe(true);
+    expect(url.startsWith(`https://thequizflow.com/tool${SHARE_PREFIX}`)).toBe(true);
   });
 
   test("drops any existing hash fragment from the base before appending", () => {
@@ -95,7 +95,7 @@ describe("buildShareUrl", () => {
     const quiz = sampleQuiz();
 
     // Act
-    const url = buildShareUrl("https://quizflow.mkazi.live/tool#stale", quiz);
+    const url = buildShareUrl("https://thequizflow.com/tool#stale", quiz);
 
     // Assert
     expect(url).not.toContain("#stale");

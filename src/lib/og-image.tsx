@@ -82,7 +82,7 @@ export function renderOgImage(): ImageResponse {
             fontFamily: "Arial, sans-serif",
           }}
         >
-          <span>quizflow.mkazi.live</span>
+          <span>thequizflow.com</span>
           <span>Local-first · Open source · MIT</span>
         </div>
       </div>
