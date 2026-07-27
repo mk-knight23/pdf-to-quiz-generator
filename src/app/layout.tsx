@@ -59,6 +59,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" suppressHydrationWarning className="h-full">
       <head>
         <ThemeScript />
+        {/* Cloudflare Web Analytics — cookieless, no PII, no consent required (STANDARDS §6 exemption). Auto-install via CF proxy is unreliable on the Vercel origin, so the beacon is embedded directly. */}
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token":"cba20ffc607c42bba49e40d7f8395657"}'
+        />
         {/* AEO & SEO Structured JSON-LD Data */}
         <script
           type="application/ld+json"
